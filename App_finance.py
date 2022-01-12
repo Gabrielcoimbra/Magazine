@@ -11,10 +11,9 @@ from plotly import graph_objs as go
 
 st.write("""
          
-         ***Acompanhamento de ações 2Neuron***
+         **Acompanhamento de ações 2Neuron - Magazine Luiza**
          
-            Magazine Luiza
-                
+                         
          
                   
          """)
