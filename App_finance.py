@@ -11,7 +11,7 @@ from plotly import graph_objs as go
 
 st.write("""
 
-Acompanhamento de ações Magazine Luiza
+Acompanhamento de acoes Magazine Luiza
 
 
 
