@@ -1,13 +1,25 @@
 
 import streamlit as st
-import yfinance as yf 
+
 from datetime import date
 import pandas as pd
 from plotly import graph_objs as go
 
-
+st.write("""
+         
+         ***Acompanhamento de ações 2Neuron***
+         
+         Magazine Luiza
+         
+         
+         
+         
+         
+         """)
          
 tickerSymbol = 'MGLU3.SA'
+
+import yfinance as yf 
 
 tickerData = yf.Tickers(tickerSymbol)
 
