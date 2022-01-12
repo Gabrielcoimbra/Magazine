@@ -9,14 +9,7 @@ from datetime import date
 import pandas as pd
 from plotly import graph_objs as go
 
-st.write("""
-         
-         **Acompanhamento de ações 2Neuron - Magazine Luiza**
-         
-                         
-         
-                  
-         """)
+st.write(""" **Acompanhamento de ações 2Neuron - Magazine Luiza** """)
          
 tickerSymbol = 'MGLU3.SA'
 
