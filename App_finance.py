@@ -6,6 +6,7 @@ Created on Wed Jan 12 11:01:03 2022
 """
 
 import streamlit as st
+pip install yfinance
 import yfinance as yf 
 from datetime import date
 #from fbprophet import Prophet
