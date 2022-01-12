@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 12 11:01:03 2022
-
 
 import streamlit as st
 import yfinance as yf 
@@ -47,7 +43,7 @@ fig_2.update_layout(
 st.plotly_chart(fig)
 st.plotly_chart(fig_2)
 
-#st.line_chart(tickerDf.Volume)
+
 
 
 
