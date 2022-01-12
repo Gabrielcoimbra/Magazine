@@ -4,9 +4,8 @@ Created on Wed Jan 12 11:01:03 2022
 
 
 import streamlit as st
-#import yfinance as yf 
+import yfinance as yf 
 from datetime import date
-#from fbprophet import Prophet
 import pandas as pd
 from plotly import graph_objs as go
 
@@ -15,13 +14,7 @@ st.write("""
          
          ***Acompanhamento de ações 2Neuron***
          
-         Magazine Luiza
-         
-         
-         
-         
-         
-         """)
+         Magazine Luiza """)
          
 tickerSymbol = 'MGLU3.SA'
 
@@ -30,7 +23,6 @@ tickerData = yf.Tickers(tickerSymbol)
 
 tickerDf = yf.download(tickers= tickerSymbol, period='1d', start='2010-5-30')
 
-#tickerDf = tickerData.history(period='1d', start='2010-5-30', end ='2022-1-12')
 
 #Grafico simples
 #st.line_chart(tickerDf.Close)
